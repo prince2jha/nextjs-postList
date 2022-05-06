@@ -21,7 +21,7 @@ const index = ({posts}) => {
                     margin: "0 auto"
                   }}
                 >
-                  {post.id}. {post.title}
+                  {index+1}. {post.title}
                 </h2>
               </div>
             </Link>
